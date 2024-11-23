@@ -842,7 +842,7 @@ class EmgDecomposition(object):
 
     def _firings_dtype(self):
         return np.dtype([
-            ('source_idx', np.int),
+            ('source_idx', np.int64),
             ('discharge_samples', np.int),
             ('discharge_seconds', np.float),
             ('squared_amplitude', np.float),
